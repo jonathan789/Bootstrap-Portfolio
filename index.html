@@ -4,37 +4,54 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<nav class="navbar navbar-dark bg-dark">
+<span class="navbar-brand mb-1 h1">Jonathan Laner </span>
+  <ul class="navbar-nav navbar-right">
+    <li><a href="index.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="page-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <img src="http://www.tigerfriends.com/theanimals/panthers/shadow-grass.jpg" alt="Placeholder" class="img-thumbnail">
+            </div>
+            <div class="col-md-9">
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet condimentum turpis. Aliquam feugiat lorem sed venenatis efficitur. Etiam aliquam risus turpis, nec iaculis dolor accumsan sed. Nullam in gravida arcu, quis rutrum metus. Aliquam aliquam tristique leo eget posuere. Aliquam scelerisque, nunc quis tristique fermentum, velit ligula auctor tortor, sit amet egestas dolor nisl vitae ex. Pellentesque sodales vitae est eget placerat. Suspendisse egestas purus sit amet ante maximus egestas. Vestibulum nibh augue, commodo a venenatis eu, interdum id mauris. Sed eleifend arcu scelerisque, euismod dolor sed, maximus metus. Cras molestie nunc vel magna consectetur, id dictum massa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Create Card taking up 4 Columns-->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Smaller Text</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Shadowy Smaller Text</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum eu ligula quis fermentum. Nullam elit tortor, tempus id venenatis sit amet, vehicula id neque.
+
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-    </section>
-
   </div>
 
   <footer>
